@@ -1,0 +1,35 @@
+.temperature_range {
+  height:20px;
+  left:540px;
+  position:absolute;
+  top:20px;
+  width:200px;
+}
+.temperature_range .ranger {
+  background-color:#5788C7;
+  border-radius:10px;
+  height:20px;
+  min-width:25px;
+  position:absolute;
+  top:0;
+}
+.temperature_range .ranger span {
+  color:#666666;
+  display:inline-block;
+  font-size:16px;
+  height:20px;
+  line-height:20px;
+  position:absolute;
+  top:0;
+  width:40px;
+}
+.temperature_range .ranger .temperature_min {
+  font-family:AvenirNextCondensed-Medium, 'AvenirNextLTW01-MediumC 721311', 'Arial Narrow', Verdana, sans-serif;
+  left:-42px;
+  text-align:right;
+}
+.temperature_range .ranger .temperature_max {
+  font-family:AvenirNextCondensed-Bold, AvenirNextLTW01-BoldCn, 'Arial Narrow', Verdana, sans-serif;
+  right:-43px;
+  text-align:left;
+}

@@ -1,0 +1,65 @@
+
+body,
+html {
+    /* height: 200%; */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(104, 145, 162);
+    /* background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33)); */
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 34px;
+   	text-align: center;
+    cursor: default;
+    /* margin-left:0px; */
+    background-color: rgb(104, 145, 162);
+}
+
+.btn:hover {
+	background-color: rgb(12, 97, 33);
+}
+
+
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+}
+
+.username {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.subtable{
+	margin-top: 10px;
+}
+
+.subtable td,.subtable th{
+	border: 1px solid white;
+	margin-top: 20px;
+}
+
+.userhistory{
+	color: black;
+}
+
+#gps{
+	margin-left: 10px; 
+	background-image: url('../images/location.png');
+	background-size: 100% 100%;
+	width: 30px;
+}
